@@ -59,37 +59,73 @@ main {
   background-color: #fff;
 }
 
+main p {
+  font-family: 'Quattrocento', serif;
+  margin: 0;
+}
+
+main strong {
+  font-family: 'Quattrocento', serif;
+}
+
 .section {
   text-align: center;
   padding: 40px;
 }
 
+.section-intro {
+  padding: 75px 55px 75px 55px;
+}
+
+.section-intro p {
+  margin-bottom: 10px;
+}
+
+.section-produits {
+  background-color: #57bb6b;
+  color: #fff8f8;
+  padding: 15px 30px 15px 30px;
+}
+
+.section-contact {
+  color: #57bb6b;
+  padding: 5px 40px 40px 40px;
+}
+
 h2 {
   font-family: 'Maven Pro', sans-serif;
   font-weight: 300px;
-  font-size: 28px;
+  font-size: 25px;
+  margin: 30px 0 30px 0;
 }
 
-.section-produits{
-  background-color: #57bb6b;
-  color: #fff8f8;
+h3 {
+  color: #000;
+  font-family: 'Sriracha', cursive;
+  font-size: 27px;
+  margin: 0;
 }
 
 .picto-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: nowrap;
 }
 
 .picto {
-  width: 40px;
-  margin: auto;
-  padding: 20px;
+  width: 30px;
+  padding: 25px;
 }
 
-h3 {
-  color: #000;
+.picto-banana {
+  transform: scaleX(-1);
 }
+
+.picto-card {
+  width: 70px;
+  padding-top: 35px;
+} 
 
 .card {
   display: flex;
@@ -98,9 +134,10 @@ h3 {
   text-align: left;
   align-items: flex-end;
   color: #00000069;
-  padding: 40px;
-  margin: 10px 0;
+  padding: 30px 35px 35px 35px;
+  margin-bottom: 30px;
   border-radius: 15px;
+  box-shadow: 0px 0px 9px 0px #000808;
 }
 
 .card-yellow {
@@ -121,8 +158,22 @@ h3 {
 
 a {
   color: #000;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
 }
 
-.card img {
-  width: 40%;
+footer {
+  background-color: #fff;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+footer p {
+  margin: 0;
+  font-family: 'Maven Pro', sans-serif;
+  margin: 0 90px 0 90px;
+  font-size: 12px;
+  color: #57bb6b;
+  text-align: center;
 }
