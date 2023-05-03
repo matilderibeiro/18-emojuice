@@ -8,3 +8,47 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background-image: url(../img/illustration-legumes.webp);
+  padding: 40px;
+  border-top: 5px solid #57bb6b;
+  background-size: cover;
+}
+
+.box-title {
+  color: #57bb6b;
+  background-color: #ffffffe3;
+  padding: 15px 55px 15px 55px;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta {
+  text-decoration: none;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.cta-green {
+  color: #fff;
+  background-color: #57bb6b;
+}
+
+.cta-light {
+  color: #57bb6b;
+  background-color: #fff;
+}
