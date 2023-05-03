@@ -54,3 +54,75 @@ header {
   color: #57bb6b;
   background-color: #fff;
 }
+
+main {
+  background-color: #fff;
+}
+
+.section {
+  text-align: center;
+  padding: 40px;
+}
+
+h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 300px;
+  font-size: 28px;
+}
+
+.section-produits{
+  background-color: #57bb6b;
+  color: #fff8f8;
+}
+
+.picto-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.picto {
+  width: 40px;
+  margin: auto;
+  padding: 20px;
+}
+
+h3 {
+  color: #000;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  align-items: flex-end;
+  color: #00000069;
+  padding: 40px;
+  margin: 10px 0;
+  border-radius: 15px;
+}
+
+.card-yellow {
+  background-color: #fff8d7;
+}
+
+.card-green {
+  background-color: #c4f2ad;
+}
+
+.card-brown {
+  background-color: #d3c6b2; 
+}
+
+.card-pink {
+  background-color: #f7a4b4; 
+}
+
+a {
+  color: #000;
+}
+
+.card img {
+  width: 40%;
+}
