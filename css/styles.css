@@ -74,7 +74,7 @@ main strong {
 }
 
 .section-intro {
-  padding: 75px 55px 75px 55px;
+  padding: 60px 55px 60px 55px;
 }
 
 .section-intro p {
@@ -84,12 +84,16 @@ main strong {
 .section-produits {
   background-color: #57bb6b;
   color: #fff8f8;
-  padding: 15px 30px 15px 30px;
+  padding: 7px 30px 15px 30px;
 }
 
 .section-contact {
   color: #57bb6b;
   padding: 5px 40px 40px 40px;
+}
+
+.section-contact h2 {
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -136,7 +140,7 @@ h3 {
   color: #00000069;
   padding: 30px 35px 35px 35px;
   margin-bottom: 30px;
-  border-radius: 15px;
+  border-radius: 23px;
   box-shadow: 0px 0px 9px 0px #000808;
 }
 
@@ -156,11 +160,10 @@ h3 {
   background-color: #f7a4b4; 
 }
 
-a {
+.card a {
   color: #000;
   font-family: 'Maven Pro', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 footer {
@@ -172,7 +175,7 @@ footer {
 footer p {
   margin: 0;
   font-family: 'Maven Pro', sans-serif;
-  margin: 0 90px 0 90px;
+  margin: 10px 90px 15px 90px;
   font-size: 12px;
   color: #57bb6b;
   text-align: center;
